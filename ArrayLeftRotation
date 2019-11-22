@@ -9,7 +9,7 @@ int main()
     cin >> a[i];
     }
     for(int i =0;i<n;i++){
-        cout << a[(i+rotations)%n]<<' ';
+        cout << a[(i+rotations)%n] << ' ';
         }
      cout<<endl;
 }
